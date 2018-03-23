@@ -63,7 +63,6 @@ Here I have plotted an exploratory visualization of the dataset. Shown below is 
 
 # Design and Test a Model Architecture
 
-#### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
 As a first step, I decided to convert the image to a grayscale image because it reduces time taken in processing as the image is monotonous rather than having 3 layers which is more time consuming and even it takes longer to make predictions.
 The grayscale pixel intensities are unsigned integer values, with the values of the pixels falling in the range (0,255).
