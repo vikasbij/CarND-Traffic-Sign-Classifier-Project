@@ -166,8 +166,7 @@ It provide me with such learning opportunity that I could take weeks more to lea
 # Test a Model on New Images
 
 Following are the 10 German traffic signs that I reffered on web
-![img1](CarND-Traffic-Sign-Classifier-Project/Report_Images/Capture8.PNG)
-
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Report_Images/Capture8.PNG)
 # Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 The model correctly guessed 8 of the 10 traffic signs,hence giving an accuracy of 80%.
