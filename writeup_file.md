@@ -153,6 +153,9 @@ Following are the 10 German traffic signs that I reffered on web:
 
 ![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Report_Images/Capture8.PNG)
 
+Some of the images might be misclassified by the model due to high level of similarities such as traffic signs enclosed inside same boundary figure like triangle, circle and posses almost similar characterstc like color.
+This may also vary due to poor lighting condtions as two images may look similair to some extent under extreme or poor lighting. 
+
 # Model Prediction:
 
 The model correctly guessed 8 of the 10 traffic signs,hence giving an accuracy of 80%.
