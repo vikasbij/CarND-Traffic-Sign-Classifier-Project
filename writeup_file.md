@@ -110,7 +110,7 @@ Epochs = 20
 
 Batch_size = 138
 
-Learning rate = 0.00097
+Adam Optimizer with Learning rate = 0.00097
 
 I changed the epochs, batch size and learning rate. Before deciding to keep it this way and on further modifications i achieved test accuracy of around 94.4
 
@@ -165,7 +165,104 @@ The model correctly guessed 8 of the 10 traffic signs,hence giving an accuracy o
 
 shown below is the image of output predicted for the web images:
 
-![image.png](attachment:image.png)
+
+Image 1:
+
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/1.jpg?raw=true)
+
+Label1: Stop = 1.0000000e+00
+Label2: End of all speed and passing limits = 1.1445986e-18
+Label3: No entry = 1.1745871e-20
+Label4: Keep right = 3.768698948834054e-13
+Label5: Turn left ahead = 1.5403739e-24
+       
+
+Image 2:
+Bumpy road
+
+Label1: Bumpy road = 1.0000000e+00
+Label2: Bicycles crossing = 6.0424854e-10
+Label3: Yield = 2.4987214e-15
+Label4: Children crossing = 2.1285474e-15
+Label5: Road work = 6.0802021e-16
+
+
+Image 3:
+Speed limit (50km/h)
+
+Label1: Speed limit (50km/h) = 9.2261392e-01
+Label2: Speed limit (100km/h) = 7.4616611e-02
+Label3: Speed limit (80km/h) = 2.6664478e-03
+Label4: Speed limit (70km/h) = 4.8524205e-05
+Label5: Speed limit (30km/h) = 4.7358575e-05
+
+Image 4:
+Road work
+
+Label1: Right-of-way at the next intersection = 1.0000000e+00
+Label2: Dangerous curve to the right = 3.0683314e-11
+Label3: Beware of ice/snow = 4.1066445e-13
+Label4: Slippery road = 1.2038996e-15
+Label5: Vehicles over 3.5 metric tons prohibited = 7.1423678e-17
+
+
+Image 5:
+Speed limit (70km/h)
+
+Label1: Speed limit (30km/h) = 5.5248260e-01
+Label2: Stop = 4.2263725e-01
+Label3: Speed limit (120km/h) = 8.2846079e-03
+Label4: Speed limit (70km/h) = 6.6708126e-03
+Label5: End of all speed and passing limits = 2.1819612e-03
+
+
+Image 6:
+Roundabout mandatory
+
+Label1: Roundabout mandatory = 9.9997973e-01
+Label2: No passing = 1.9577465e-05
+Label3: End of all speed and passing limits = 2.9338540e-07
+Label4: Priority road = 1.5697889e-07
+Label5: Vehicles over 3.5 metric tons prohibited = 8.0206256e-08       
+
+Image 7:
+No entry
+
+Label1: No entry = 9.9710566e-01
+Label2: Stop = 2.8943052e-03
+Label3: Turn right ahead = 4.4485740e-10
+Label4: Turn left ahead = 3.3688782e-10
+Label5: Speed limit (120km/h) = 2.2270920e-10
+
+
+Image 8:
+Turn left ahead
+
+Label1: Turn left ahead = 9.9710566e-01
+Label2: Right-of-way at the next intersection = 2.8943052e-03
+Label3: Beware of ice/snow = 4.4485740e-10
+Label4: No entry = 3.3688782e-10
+Label5: Vehicles over 3.5 metric tons prohibited = 2.2270920e-10
+
+
+Image 9:
+Wild animals crossing 
+
+Label1: Wild animals crossing = 1.0000000e+00
+Label2: Double curve = 5.7172989e-14
+Label3: Slippery road = 2.1863365e-21
+Label4: Road work = 1.1732914e-30
+Label5: Speed limit (50km/h) = 2.4616694e-32
+
+
+Image 10:
+Right-of-way at the next intersection
+
+Label1: Right-of-way at the next intersection = 1.0000000e+00
+Label2: Beware of ice/snow = 7.5917102e-24
+Label3: Pedestrians = 3.8036297e-24
+Label4: Vehicles over 3.5 metric tons prohibited = 2.5203890e-27
+Label5: Double curve = 3.2053543e-28
 
 The forth and the fifth images were not identified correctly as the image for an right-of-way at the next intersection 
 looks similar to that of Road work and similarly for the other, when an image of 32*32 is used and the image gets low in 
