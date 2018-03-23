@@ -168,7 +168,7 @@ shown below is the image of output predicted for the web images:
 
 Image 1:
 
-![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/1.jpg?raw=true)
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/1.jpg)
 
 Label1: Stop = 1.0000000e+00
 Label2: End of all speed and passing limits = 1.1445986e-18
@@ -180,6 +180,8 @@ Label5: Turn left ahead = 1.5403739e-24
 Image 2:
 Bumpy road
 
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/12.jpg)
+
 Label1: Bumpy road = 1.0000000e+00
 Label2: Bicycles crossing = 6.0424854e-10
 Label3: Yield = 2.4987214e-15
@@ -189,6 +191,7 @@ Label5: Road work = 6.0802021e-16
 
 Image 3:
 Speed limit (50km/h)
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/13.jpg)
 
 Label1: Speed limit (50km/h) = 9.2261392e-01
 Label2: Speed limit (100km/h) = 7.4616611e-02
@@ -198,6 +201,7 @@ Label5: Speed limit (30km/h) = 4.7358575e-05
 
 Image 4:
 Road work
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/14.jpg)
 
 Label1: Right-of-way at the next intersection = 1.0000000e+00
 Label2: Dangerous curve to the right = 3.0683314e-11
@@ -208,6 +212,7 @@ Label5: Vehicles over 3.5 metric tons prohibited = 7.1423678e-17
 
 Image 5:
 Speed limit (70km/h)
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/2.jpg)
 
 Label1: Speed limit (30km/h) = 5.5248260e-01
 Label2: Stop = 4.2263725e-01
@@ -218,6 +223,7 @@ Label5: End of all speed and passing limits = 2.1819612e-03
 
 Image 6:
 Roundabout mandatory
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/3.jpg)
 
 Label1: Roundabout mandatory = 9.9997973e-01
 Label2: No passing = 1.9577465e-05
@@ -227,6 +233,7 @@ Label5: Vehicles over 3.5 metric tons prohibited = 8.0206256e-08
 
 Image 7:
 No entry
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/4.jpg)
 
 Label1: No entry = 9.9710566e-01
 Label2: Stop = 2.8943052e-03
@@ -237,6 +244,7 @@ Label5: Speed limit (120km/h) = 2.2270920e-10
 
 Image 8:
 Turn left ahead
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/5.jpg)
 
 Label1: Turn left ahead = 9.9710566e-01
 Label2: Right-of-way at the next intersection = 2.8943052e-03
@@ -246,7 +254,8 @@ Label5: Vehicles over 3.5 metric tons prohibited = 2.2270920e-10
 
 
 Image 9:
-Wild animals crossing 
+Wild animals crossing
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/12.jpg)
 
 Label1: Wild animals crossing = 1.0000000e+00
 Label2: Double curve = 5.7172989e-14
@@ -257,6 +266,8 @@ Label5: Speed limit (50km/h) = 2.4616694e-32
 
 Image 10:
 Right-of-way at the next intersection
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Images_test/12.jpg)
+
 
 Label1: Right-of-way at the next intersection = 1.0000000e+00
 Label2: Beware of ice/snow = 7.5917102e-24
