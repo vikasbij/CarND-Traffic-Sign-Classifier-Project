@@ -110,7 +110,7 @@ Adam Optimizer with Learning rate = 0.00097
 
 I changed the epochs, batch size and learning rate. Before deciding to keep it this way and on further modifications i achieved test accuracy of around 94.4
 
-#  Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem. 
+#  My approach taken for finding a solution and getting the validation set accuracy 
 
 In my final model output I was able to achieve:
 
@@ -153,7 +153,7 @@ Following are the 10 German traffic signs that I reffered on web:
 
 ![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Report_Images/Capture8.PNG)
 
-# Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+# Model Prediction:
 
 The model correctly guessed 8 of the 10 traffic signs,hence giving an accuracy of 80%.
 
@@ -180,108 +180,126 @@ Image 1:
 
 Stop sign
 
-Label1: Stop = 1.0000000e+00
-Label2: End of all speed and passing limits = 1.1445986e-18
-Label3: No entry = 1.1745871e-20
-Label4: Keep right = 3.768698948834054e-13
-Label5: Turn left ahead = 1.5403739e-24
-       
+| Probability         		|     Prediction	        					| 
+|:-------------------------:|:---------------------------------------------:| 
+| 1.0         				| Stop sign   									| 
+| 1.1445986e-18				| End of all speed and passing limits			|
+| 1.1745871e-20				| No entry										|
+| 3.768698948834054e-13		| Keep right 					 				|
+| 1.5403739e-24			   	| Turn left ahead      							|
+
 
 Image 2:
 Bumpy road
 
+| Probability         		|     Prediction	        					| 
+|:-------------------------:|:---------------------------------------------:| 
+| 1.0000000e+00				| Bumpy road   									| 
+| 6.0424854e-10				| Bicycles crossing								|
+| 2.4987214e-15				| Yield											|
+| 2.1285474e-15				| Children crossing				 				|
+| 6.0802021e-16   			| Road work			 							| 
 
-Label1: Bumpy road = 1.0000000e+00
-Label2: Bicycles crossing = 6.0424854e-10
-Label3: Yield = 2.4987214e-15
-Label4: Children crossing = 2.1285474e-15
-Label5: Road work = 6.0802021e-16
 
 
 Image 3:
 Speed limit (50km/h)
 
-Label1: Speed limit (50km/h) = 9.2261392e-01
-Label2: Speed limit (100km/h) = 7.4616611e-02
-Label3: Speed limit (80km/h) = 2.6664478e-03
-Label4: Speed limit (70km/h) = 4.8524205e-05
-Label5: Speed limit (30km/h) = 4.7358575e-05
+| Probability         		|     Prediction	        					| 
+|:-------------------------:|:---------------------------------------------:| 
+| 9.2261392e-01				| Speed limit (50km/h)   						| 
+| 7.4616611e-02				| Speed limit (100km/h)							|
+| 2.6664478e-03				| Speed limit (80km/h) 							|
+| 4.8524205e-05				| Speed limit (70km/h)			 				|
+| 4.7358575e-05			   	| Speed limit (30km/h)							| 
 
 Image 4:
 Road work
 
-
-Label1: Right-of-way at the next intersection = 1.0000000e+00
-Label2: Dangerous curve to the right = 3.0683314e-11
-Label3: Beware of ice/snow = 4.1066445e-13
-Label4: Slippery road = 1.2038996e-15
-Label5: Vehicles over 3.5 metric tons prohibited = 7.1423678e-17
+| Probability         		|     Prediction	        					| 
+|:-------------------------:|:---------------------------------------------:| 
+| 1.0000000e+00				| Right-of-way at the next intersection 		| 
+| 3.0683314e-11				| Dangerous curve to the right					|
+| 4.1066445e-13				| Beware of ice/snow							|
+| 1.2038996e-15				| Slippery road					 				|
+| 7.1423678e-17			   	| Vehicles over 3.5 metric tons prohibited 		|
 
 
 Image 5:
 Speed limit (70km/h)
 
+| Probability         		|     Prediction	        					| 
+|:-------------------------:|:---------------------------------------------:| 
+| 5.5248260e-01				| Speed limit (30km/h)  						| 
+| 4.2263725e-01				| Stop											|
+| 8.2846079e-03				| Speed limit (120km/h)							|
+| 6.6708126e-03				| Speed limit (70km/h)			 				|
+| 2.1819612e-03			   	| End of all speed and passing limits			| 
 
-Label1: Speed limit (30km/h) = 5.5248260e-01
-Label2: Stop = 4.2263725e-01
-Label3: Speed limit (120km/h) = 8.2846079e-03
-Label4: Speed limit (70km/h) = 6.6708126e-03
-Label5: End of all speed and passing limits = 2.1819612e-03
 
 
 Image 6:
 Roundabout mandatory
 
 
-Label1: Roundabout mandatory = 9.9997973e-01
-Label2: No passing = 1.9577465e-05
-Label3: End of all speed and passing limits = 2.9338540e-07
-Label4: Priority road = 1.5697889e-07
-Label5: Vehicles over 3.5 metric tons prohibited = 8.0206256e-08       
+| Probability         		|     Prediction	        					| 
+|:-------------------------:|:---------------------------------------------:| 
+| 9.9997973e-01				| Roundabout mandatory   						| 
+| 1.9577465e-05 			| No passing									|
+| 2.9338540e-07 			| End of all speed and passing limits			|
+| 1.5697889e-07 			| Priority road					 				|
+| 8.0206256e-08   			| Vehicles over 3.5 metric tons prohibited		| 
+
 
 Image 7:
 No entry
 
-
-Label1: No entry = 9.9710566e-01
-Label2: Stop = 2.8943052e-03
-Label3: Turn right ahead = 4.4485740e-10
-Label4: Turn left ahead = 3.3688782e-10
-Label5: Speed limit (120km/h) = 2.2270920e-10
+| Probability         		|     Prediction	        					| 
+|:-------------------------:|:---------------------------------------------:| 
+| 9.9710566e-01				| No entry   									| 
+| 2.8943052e-03				| Stop											|
+| 4.4485740e-10				| Turn right ahead								|
+| 3.3688782e-10				| Turn left ahead    				 			|
+| 2.2270920e-10				| Speed limit (120km/h) 						| 
 
 
 Image 8:
 Turn left ahead
 
 
-Label1: Turn left ahead = 9.9710566e-01
-Label2: Right-of-way at the next intersection = 2.8943052e-03
-Label3: Beware of ice/snow = 4.4485740e-10
-Label4: No entry = 3.3688782e-10
-Label5: Vehicles over 3.5 metric tons prohibited = 2.2270920e-10
+| Probability         		|     Prediction	        					| 
+|:-------------------------:|:---------------------------------------------:| 
+| 9.9710566e-01				| Turn left ahead 								| 
+| 2.8943052e-03				| Right-of-way at the next intersection			|
+| 4.4485740e-10				| Beware of ice/snow							|
+| 3.3688782e-10				| No entry    				 					|
+| 2.2270920e-10				| Vehicles over 3.5 metric tons prohibited 		|
 
 
 Image 9:
 Wild animals crossing
 
 
-Label1: Wild animals crossing = 1.0000000e+00
-Label2: Double curve = 5.7172989e-14
-Label3: Slippery road = 2.1863365e-21
-Label4: Road work = 1.1732914e-30
-Label5: Speed limit (50km/h) = 2.4616694e-32
+| Probability         		|     Prediction	        					| 
+|:-------------------------:|:---------------------------------------------:| 
+| 1.0000000e+00				| Wild animals crossing							| 
+| 5.7172989e-14				| Double curve									|
+| 2.1863365e-21				| Slippery road									|
+| 1.1732914e-30				| Road work    				 					|
+| 2.4616694e-32				| Speed limit (50km/h)					 		|
 
 
 Image 10:
 Right-of-way at the next intersection
 
 
-
-Label1: Right-of-way at the next intersection = 1.0000000e+00
-Label2: Beware of ice/snow = 7.5917102e-24
-Label3: Pedestrians = 3.8036297e-24
-Label4: Vehicles over 3.5 metric tons prohibited = 2.5203890e-27
-Label5: Double curve = 3.2053543e-28
+| Probability         		|     Prediction	        					| 
+|:-------------------------:|:---------------------------------------------:| 
+| 1.0000000e+00				| Right-of-way at the next intersection			| 
+| 7.5917102e-24				| Beware of ice/snow							|
+| 3.8036297e-24				| Pedestrians									|
+| 2.5203890e-27				| Vehicles over 3.5 metric tons prohibited  	|
+| 3.2053543e-28				| Double curve					 				| 
 
 The forth and the fifth images were not identified correctly as the image for an right-of-way at the next intersection 
 looks similar to that of Road work and similarly for the other, when an image of 32*32 is used and the image gets low in 
