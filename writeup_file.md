@@ -15,7 +15,7 @@
 * Summarize the results with a written report 
 # [//]: # (Image References) 
 
-[img1]:(https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/visualization.jpg)
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/visualization.jpg)
 [image1]: ./examples/visualization.jpg [image2]: ./examples/grayscale.jpg "Grayscaling" [image3]: ./examples/random_noise.jpg "Random Noise" [image4]: ./examples/placeholder.png "Traffic Sign 1" [image5]: ./examples/placeholder.png "Traffic Sign 2" [image6]: ./examples/placeholder.png "Traffic Sign 3" [image7]: ./examples/placeholder.png "Traffic Sign 4" [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 [image1]: ./examples/visualization.jpg "Visualization" [image2]: ./examples/grayscale.jpg "Grayscaling" [image3]: ./examples/random_noise.jpg "Random Noise" [image4]: ./examples/placeholder.png "Traffic Sign 1" [image5]: ./examples/placeholder.png "Traffic Sign 2" [image6]: ./examples/placeholder.png "Traffic Sign 3" [image7]: ./examples/placeholder.png "Traffic Sign 4" [image8]: ./examples/placeholder.png "Traffic Sign 5"
