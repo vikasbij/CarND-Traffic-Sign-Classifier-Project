@@ -72,11 +72,11 @@ Then, I normalized the image data because wider distribution of data makes it mo
 
 Original image set:
 
-![image.png](attachment:image.png)
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Report_Images/Capture1.PNG)
 
 Output after preprocessing:
 
-![image.png](attachment:image.png)
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Report_Images/Capture2.PNG)
 
 #  Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
