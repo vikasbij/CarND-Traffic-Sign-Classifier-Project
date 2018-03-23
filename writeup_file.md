@@ -303,7 +303,7 @@ Right-of-way at the next intersection
 | 3.2053543e-28				| Double curve					 				| 
 
 The images right-of-way at the next intersection and Speed limit (70 km/h) are not identified correctly as the image for an right-of-way at the next intersection 
-looks similar to that of Road work both are traingular images coloured with blue boundaries so the neural network may be classifying it to be similar to that of Road work and similarly for Speed limit (70 km/h) images have same characterstics in shape and color and hence may be wrongly classified. 
+looks similar to that of Road work both are traingular images coloured with blue boundaries so the neural network may be classifying it to be similar to that of Road work and similarly for Speed limit (70 km/h) image have same characterstics in shape and color as that of Speed limit (30 km/h) and hence may be wrongly classified. 
 Also when an image of 32*32 is used and the image gets low in 
 resolution when converted to gray scale and normalization is applied thus it almost looks similar to 
 output class predicted by the model.
