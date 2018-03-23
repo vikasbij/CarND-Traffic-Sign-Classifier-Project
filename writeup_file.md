@@ -33,7 +33,7 @@
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.    
 
-# Data Set Summary & Exploration # ### Data Set Summary & Exploration 
+# Data Set Summary & Exploration
 
 #  Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
@@ -74,7 +74,7 @@ Output after preprocessing:
 
 ![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Report_Images/Capture2.PNG)
 
-#  Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
+# model architecture
 
 My final model layer description :
 
@@ -98,7 +98,7 @@ My final model layer description :
 | Fully connected		| input 84, output 43							|
 
 
-# Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
+# training of model
 
 While training the LeNet Architecture I modified the following values for the hyperparameters:
 
@@ -172,7 +172,7 @@ Here is the result of the prediction of the images:
 | Turn left ahead						| Turn left ahead      					|
 | Wild animals crossing 				| Wild animals crossing					|
 
-# Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+# Model Prediction for top 5 softmax
 
 shown below is the image of output predicted for the web images:
 
