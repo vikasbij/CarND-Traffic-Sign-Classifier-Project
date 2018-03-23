@@ -164,8 +164,9 @@ Here is the result of the prediction of the images:
 | Stop sign      						| Stop sign   							| 
 | Bumpy Road     						| Bumpy Road							|
 | Speed limit (50 km/h)					| Speed limit (50 km/h)					|
+| Road work								| Road work								|
 | Right-of-way at the next intersection	| Road work								|
-| Speed limit (30 km/h)					| Speed limit (70 km/h)					|
+| Speed limit (70 km/h)					| Speed limit (30 km/h)					|
 | Roundabout mandatory					| Roundabout mandatory					|
 | No entry	      						| No Entry 						 		|
 | Turn left ahead						| Turn left ahead      					|
@@ -301,7 +302,8 @@ Right-of-way at the next intersection
 | 2.5203890e-27				| Vehicles over 3.5 metric tons prohibited  	|
 | 3.2053543e-28				| Double curve					 				| 
 
-The forth and the fifth images were not identified correctly as the image for an right-of-way at the next intersection 
-looks similar to that of Road work and similarly for the other, when an image of 32*32 is used and the image gets low in 
+The images right-of-way at the next intersection and Speed limit (70 km/h) are not identified correctly as the image for an right-of-way at the next intersection 
+looks similar to that of Road work both are traingular images coloured with blue boundaries so the neural network may be classifying it to be similar to that of Road work and similarly for Speed limit (70 km/h) images have same characterstics in shape and color and hence may be wrongly classified. 
+Also when an image of 32*32 is used and the image gets low in 
 resolution when converted to gray scale and normalization is applied thus it almost looks similar to 
 output class predicted by the model.
