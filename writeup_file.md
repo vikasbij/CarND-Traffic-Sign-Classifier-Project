@@ -15,7 +15,6 @@
 * Summarize the results with a written report 
 # [//]: # (Image References) 
 
-![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/examples/visualization.jpg)
 [image1]: ./examples/visualization.jpg [image2]: ./examples/grayscale.jpg "Grayscaling" [image3]: ./examples/random_noise.jpg "Random Noise" [image4]: ./examples/placeholder.png "Traffic Sign 1" [image5]: ./examples/placeholder.png "Traffic Sign 2" [image6]: ./examples/placeholder.png "Traffic Sign 3" [image7]: ./examples/placeholder.png "Traffic Sign 4" [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 [image1]: ./examples/visualization.jpg "Visualization" [image2]: ./examples/grayscale.jpg "Grayscaling" [image3]: ./examples/random_noise.jpg "Random Noise" [image4]: ./examples/placeholder.png "Traffic Sign 1" [image5]: ./examples/placeholder.png "Traffic Sign 2" [image6]: ./examples/placeholder.png "Traffic Sign 3" [image7]: ./examples/placeholder.png "Traffic Sign 4" [image8]: ./examples/placeholder.png "Traffic Sign 5"
@@ -56,11 +55,11 @@ Number of classes = 43
 
 Here I have plotted an exploratory visualization of the dataset. Shown below is the bar chart visualization of validation,training abd test data:
 
-![image.png](attachment:image.png)
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Report_Images/Capture4.PNG)
 
-![image.png](attachment:image.png)
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Report_Images/Capture3.PNG)
 
-![image.png](attachment:image.png)
+![img1](https://github.com/vikasbij/CarND-Traffic-Sign-Classifier-Project/blob/master/Report_Images/Capture5.PNG)
 
 # Design and Test a Model Architecture
 
